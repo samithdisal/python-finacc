@@ -63,3 +63,15 @@ def fv_factor(r, n):
     return pow(1+r, n)
 
 
+def present_value(c1, r, n):
+    return c1/pow(1+r, n)
+
+
+def pv_continues_compounding(c, r, t):
+    return c/pow(e, r*t)
+
+
+def pv_factor(r, n):
+    return 1/pow(1+r, n)
+
+
