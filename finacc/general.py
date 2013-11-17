@@ -51,3 +51,15 @@ def doubling_time_continues_compounding(r):
     return ln(2)/r
 
 
+def future_value(c0, r, n):
+    return c0 * pow(1+r, n)
+
+
+def fv_continues_compounding(pv, r, t):
+    return pv*pow(e, r*t)
+
+
+def fv_factor(r, n):
+    return pow(1+r, n)
+
+
