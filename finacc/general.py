@@ -90,3 +90,6 @@ def rule_of_72(r):
     return 72/r
 
 
+def perpetuity(d, r):
+    return d/r
+
