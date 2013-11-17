@@ -1,6 +1,6 @@
 __author__ = 'samiths'
 
-from math import pow, e, log as ln
+from math import pow, e, log as ln, log10
 
 
 def annuity_future_value(p, r, n):
@@ -41,3 +41,9 @@ def annuity_due_payment_fv(fv, r, n):
 
 def annuity_due_payment_pv(pv, r, n):
     return pv*(r/(1-pow(1+r, n*-1)))*(1/(1+r))
+
+
+def doubling_time(r):
+    return log10(2)/(log10(1+r))
+
+
