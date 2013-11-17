@@ -47,3 +47,7 @@ def doubling_time(r):
     return log10(2)/(log10(1+r))
 
 
+def doubling_time_continues_compounding(r):
+    return ln(2)/r
+
+
