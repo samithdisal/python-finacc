@@ -75,3 +75,14 @@ def pv_factor(r, n):
     return 1/pow(1+r, n)
 
 
+def weighted_avg(values):
+    """
+    TODO: Handle error
+    """
+    wavg = 0
+    for (val, weight) in values:
+        wavg += val*weight
+        pass
+    return wavg
+
+
