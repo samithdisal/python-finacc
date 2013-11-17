@@ -86,3 +86,7 @@ def weighted_avg(values):
     return wavg
 
 
+def rule_of_72(r):
+    return 72/r
+
+
